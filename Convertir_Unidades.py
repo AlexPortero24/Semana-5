@@ -36,3 +36,16 @@ temperatura_kelvin = celsius_a_kelvin(temperatura_celsius)
 # Variable booleana que representa si la conversión fue exitosa
 resultado_correcto = True  # Aquí se usa el tipo boolean
 # Identificador en snake_case: resultado_correcto
+
+# Aquí se muestra el valor original en Celsius
+print("Temperatura en grados Celsius:", temperatura_celsius, "°C")  # float
+
+# Aquí se muestra la temperatura convertida a Fahrenheit
+print("Temperatura en grados Fahrenheit:", temperatura_fahrenheit, "°F")  # float
+
+# Aquí se muestra la temperatura convertida a Kelvin
+print("Temperatura en grados Kelvin:", temperatura_kelvin, "K")  # float y Kelvin no lleva los grados debido a que es una unidad absoluta.
+
+# Aquí se muestra el estado de la conversión usando una variable booleana
+print("¿Conversión realizada correctamente?", resultado_correcto)  # boolean
+
